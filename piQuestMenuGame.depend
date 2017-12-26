@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1504060158 source:/usr/piQuestMenuGame_Project/include/game_defines.cpp
+	"game_defines.h"
+	<X11/Xos.h>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xatom.h>
+	<X11/Xresource.h>
+	<X11/keysymdef.h>
+
+1504057304 /usr/piQuestMenuGame_Project/include/game_defines.h
+	<iostream>
+	<pthread.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<unistd.h>
+	<X11/Xos.h>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xatom.h>
+	<X11/Xresource.h>
+	"VG/openvg.h"
+	"VG/vgu.h"
+	"fontinfo.h"
+	"game_ui.h"
+	"shapes.h"
+	"wiringPi.h"
+
+1440173077 /usr/piQuestMenuGame_Project/include/include/VG/openvg.h
+	"vgplatform.h"
+
+1440173077 /usr/piQuestMenuGame_Project/include/include/VG/vgplatform.h
+	"../KHR/khrplatform.h"
+
+1440173077 /usr/piQuestMenuGame_Project/include/include/VG/vgu.h
+	"openvg.h"
+
+1492513643 /usr/piQuestMenuGame_Project/include/include/fontinfo.h
+
+1503943940 /usr/piQuestMenuGame_Project/include/game_ui.h
+	<iostream>
+	"game_defines.h"
+	"VG/openvg.h"
+	"VG/vgu.h"
+	"fontinfo.h"
+	"shapes.h"
+
+1492513643 /usr/piQuestMenuGame_Project/include/include/shapes.h
+	<VG/openvg.h>
+	<VG/vgu.h>
+	"fontinfo.h"
+
+1502909959 /usr/piQuestMenuGame_Project/include/include/wiringPi.h
+
+1504061119 source:/usr/piQuestMenuGame_Project/include/game_ui.cpp
+	"game_ui.h"
+
+1504060057 source:/usr/piQuestMenuGame_Project/main.cpp
+	<iostream>
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"include/game_defines.h"
+	"include/game_ui.h"
+	"wiringPi.h"
+
